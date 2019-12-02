@@ -1,0 +1,341 @@
+/* how to add local font */
+@font-face {
+  font-family: GE-SS-Two-Bold;
+  src: url('../font/GE-SS-Two-Bold.otf');
+}
+
+/* small mobile */
+@media only screen and (min-width: 360px) and (max-width: 640px) {}
+
+/* larg mobile */
+@media only screen and (min-width: 414px) and (max-width: 767px) {}
+
+/* desktop */
+@media only screen and (min-width: 961px) {
+
+  /* LOGO SECTION */
+  body, html {
+    height: 100%;
+  }
+
+  .row {
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: thin;
+    border-color: #586468;
+    padding-top: 0.9vw;
+  }
+
+  .logo-img {
+    width: 20vw;
+    position: absolute;
+    z-index: 1;
+    left: 3vw;
+    bottom: -6.15vh;
+  }
+
+  /* here we change div display and we make it in one line s block */
+  .phone-us-email-div p {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .phone-p {
+    margin-right: 2vw;
+    color: #071113;
+  }
+
+  .email-p {
+    color: #071113;
+  }
+
+  .working-time-p {
+    color: #071113;
+  }
+
+  .fa-clock {
+    color: #f9690e;
+    margin-right: 0.25vw;
+  }
+
+  .fa-phone-alt {
+    color: #f9690e;
+    margin-right: 0.25vw;
+  }
+
+  .fa-envelope {
+    color: #f9690e;
+    margin-right: 0.25vw;
+  }
+
+  .logo-div {
+    text-align: center;
+  }
+
+  .working-time-div {
+    text-align: right !important;
+  }
+
+  /* LINKS SECTION */
+  #links-section {
+    margin-top: 5vw;
+  }
+
+  .links-div {
+    text-align: center;
+  }
+
+  .links-a {
+    font-family: Playball;
+    font-size: 1.5vw;
+    margin: 0vw 2vw;
+    color: #071113;
+  }
+
+  .links-a:hover {
+    color: #f9690e;
+  }
+
+  /* WELCOME SECTION */
+  #welcome-section {
+    margin-top: 3vw;
+    background-image: url(../images/food.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+
+  .welcome-section-container {
+    margin-left: 5vw !important;
+  }
+
+  .welcom-h4 {
+    padding-top: 10vw;
+    color: #071113;
+    font-family: Playball;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    padding-right: 10vw;
+  }
+
+  .we-h1 {
+    font-family: Poppins;
+    color: #071113;
+    font-size: 3vw;
+  }
+
+  .see-menu-a {
+
+    background-color: #f9690e !important;
+    border-color: #f9690e !important;
+    margin-top: 2vw;
+  }
+
+  /* ABOUT US SECTION */
+  #about-us-section {
+    margin-top: 5vw;
+  }
+
+  .about-us-img-div {
+    text-align: center;
+  }
+
+  .fork-img {
+    width: 2vw;
+  }
+
+  .about-us-div {
+    text-align: center;
+    margin-top: 0.5vw;
+  }
+
+  .some-words-h4 {
+    font-family: Playball;
+    color: #f9690e;
+  }
+
+  .about-branov-h2 {
+    font-family: Poppins;
+    font-weight: bold;
+    margin-bottom: 3vw;
+  }
+
+  .about-branov-p {
+    font-family: sans-serif;
+    color: #586468;
+    line-height: 2;
+  }
+
+  /* IMGES FOR ABOUT US SECTION */
+  .row-imgs {
+    margin-top: 10vw;
+    border-style: none !important;
+  }
+
+  .open-div {
+    text-align: center;
+  }
+
+  .open-img {
+    width: 4vw;
+  }
+
+  .title-about-us-h3 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 1vw;
+    margin: 2vw 0vw;
+  }
+
+  .text-for-about-us-p {
+    font-family: sans-serif;
+    color: #586468;
+    line-height: 1.5;
+  }
+
+  .special-dishes-div {
+    text-align: center;
+  }
+
+  .special-dishes-img {
+    width: 3vw;
+  }
+
+  .chef-div {
+    text-align: center;
+  }
+
+  .chef-img {
+    width: 3vw;
+  }
+
+  /* MENU SECTION */
+  #menu-section {
+    margin-top: 8vw;
+    background-image: url(../images/menu-food.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  padding-bottom: 10vw;
+
+  }
+
+  .breakfast-lunch-div {
+    text-align: center;
+    padding-top: 2vw;
+  }
+
+  .li-a {
+    display: inline-block;
+    margin: 0vw 2vw;
+    font-family: Poppins;
+
+  }
+.break-fast-a{
+  color: white;
+}
+.break-fast-a:hover{
+color: #f9690e;
+}
+  .food-u-love-h4{
+    font-family: Playball;
+    color: #f9690e;
+    margin-top: 5vw;
+
+  }
+
+  .todays-menu-h2{
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5vw;
+
+  }
+  .row-for-menu{
+    margin-top: 7vw!important;
+    border-style: none !important;
+  }
+
+  .menu-image-img{
+    width: 25%;
+  }
+
+  .food-img-div{
+display:inline-block;
+
+  }
+
+
+
+.food-h4{
+  color: white;
+  font-family: Poppins;
+display:inline-block;
+vertical-align: top;
+margin-left: 1vw;
+}
+.food-dis-p{
+  color: white;
+  font-family: Poppins;
+display:inline-block;
+margin-left: 6.5vw;
+position: absolute;
+bottom: -1vw;
+left: 1.5vw;
+}
+
+.food-price-h4{
+  color: white;
+display:inline-block;
+vertical-align: top;
+padding-top: 1%;
+padding-left: 8vw;
+
+}
+
+
+/* FOOTER SECTION */
+
+#footer-section{
+  margin-top: 15vw;
+  background-image: url(../images/footer-dark.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 5vw;
+}
+
+.footer-div{
+  text-align: center;
+  padding-top: 10vw;
+}
+
+.footer-p{
+  font-family: sans-serif;
+  color: white;
+  font-size: 2vw;
+}
+
+.copy-right-div{
+text-align: center;
+margin-top: 3vw;
+}
+
+.footer-phone{
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  margin-right: 1vw;
+}
+.footer-email{
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+  margin-right:1vw;
+}
+
+.copy-right-footer{
+  color: white;
+  text-align: center;
+  margin-top: 3vw;
+}
