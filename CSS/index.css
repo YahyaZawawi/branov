@@ -257,42 +257,20 @@ color: #f9690e;
     border-style: none !important;
   }
 
-  .menu-image-img{
-    width: 25%;
-  }
-
-  .food-img-div{
-display:inline-block;
-
-  }
-
-
-
-.food-h4{
-  color: white;
-  font-family: Poppins;
-display:inline-block;
-vertical-align: top;
-margin-left: 1vw;
-}
-.food-dis-p{
-  color: white;
-  font-family: Poppins;
-display:inline-block;
-margin-left: 6.5vw;
-position: absolute;
-bottom: -1vw;
-left: 1.5vw;
+.card{
+  background-color:inherit!important;
 }
 
-.food-price-h4{
+.card-text{
   color: white;
-display:inline-block;
-vertical-align: top;
-padding-top: 1%;
-padding-left: 8vw;
-
 }
+
+.text-small{
+  color: white;
+  
+}
+
+
 
 
 /* FOOTER SECTION */
